@@ -50,5 +50,11 @@
             android:icon="@drawable/ic_error_black"
             android:title="@string/butterknife_string" />
 
+        <item
+            android:id="@+id/footerItem"
+            android:checked="false"
+            android:fontFamily="san-serif"
+            android:icon="@drawable/ic_error_black"
+            android:title="@string/footerItem_string" />
     </group>
 </menu>

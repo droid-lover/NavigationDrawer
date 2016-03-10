@@ -10,6 +10,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Toast;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
@@ -19,6 +20,7 @@ import example.com.materialnavigationdrawer.fragments.CricinfoFragment;
 import example.com.materialnavigationdrawer.fragments.DraftFragment;
 import example.com.materialnavigationdrawer.fragments.GoogleFragment;
 import example.com.materialnavigationdrawer.fragments.InboxFragment;
+import example.com.materialnavigationdrawer.fragments.MaterialDesignGoogleFragment;
 import example.com.materialnavigationdrawer.fragments.SentMailFrag;
 import example.com.materialnavigationdrawer.fragments.StarredFragment;
 
@@ -26,7 +28,7 @@ import example.com.materialnavigationdrawer.fragments.StarredFragment;
  * Created by jarvis on 10-Mar-16
  * at  11:52 AM .
  */
-public class MainActivity  extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity {
 
     //Defining Variables
     @Bind(R.id.toolbar)
@@ -119,12 +121,16 @@ public class MainActivity  extends AppCompatActivity {
                         fragmentTransaction7.commit();
                         toolbar.setTitle("ButterKnife Fragment");
                         return true;
+                    case R.id.footerItem:
+
+                        MaterialDesignGoogleFragment materialDesignGoogleFragmentHere = new MaterialDesignGoogleFragment();
+                        FragmentTransaction fragmentTransaction8 = getSupportFragmentManager().beginTransaction();
+                        fragmentTransaction8.replace(R.id.frame, materialDesignGoogleFragmentHere);
+                        fragmentTransaction8.commit();
+                        toolbar.setTitle("Google's Material Design");
+                        return true;
                     default:
-                        InboxFragment inboxFragment = new InboxFragment();
-                        FragmentTransaction fragmentTransactionDefault = getSupportFragmentManager().beginTransaction();
-                        fragmentTransactionDefault.replace(R.id.frame, inboxFragment);
-                        fragmentTransactionDefault.commit();
-                        toolbar.setTitle("Inbox default");
+                        Toast.makeText(MainActivity.this, "Default case", Toast.LENGTH_LONG).show();
                         return true;
 
                 }
@@ -154,12 +160,6 @@ public class MainActivity  extends AppCompatActivity {
 
         //calling sync state is necessay or else your hamburger icon wont show up
         actionBarDrawerToggle.syncState();
-
-
-
-
-
-
 
 
     }

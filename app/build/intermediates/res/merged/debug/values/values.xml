@@ -286,6 +286,7 @@
     <string name="closeDrawer">Navigation View</string>
     <string name="cricinfo_string">CricInfo</string>
     <string name="draft_string">Drafts</string>
+    <string name="footerItem_string">Material Design - Google</string>
     <string name="google_string">Google</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="inbox_string">Inbox</string>
