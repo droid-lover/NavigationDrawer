@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\Android Studio Projects\NavDrawer-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6e3578f92f7462d1a935a1d36173e3bdd1234976">
+        <dex dex="D:\Android Studio Projects\NavDrawer-master\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.2.0_c41efcbdade5008311bf133cf8138dfd6ee4e7c4.jar" />
+    </item>
+    <item
+        jar="D:\Android Studio Projects\NavDrawer-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e5f32fa48a3eb2de0c987025c11b6e3864b634d9">
+        <dex dex="D:\Android Studio Projects\NavDrawer-master\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.2.0_85a5575703a46bf70c08690e174aa4c9aa1be003.jar" />
+    </item>
+    <item
+        jar="D:\Android Studio Projects\NavDrawer-master\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d4c936aa8c7d2522c82e3f1829c791d9e367f009">
+        <dex dex="D:\Android Studio Projects\NavDrawer-master\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-23.2.0_639460c91ab858bf346f0355cc62784ebd801ae0.jar" />
+    </item>
+    <item
+        jar="D:\Android Studio Projects\NavDrawer-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="292a9fa091757208efa65e77eef63088247e51f3">
+        <dex dex="D:\Android Studio Projects\NavDrawer-master\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.2.0_431ca7afa62d8069913984aa0cbed5bfee8dd79c.jar" />
+    </item>
+    <item
+        jar="D:\Android Studio Projects\NavDrawer-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\jars\libs\internal_impl-23.2.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6e239441500605809818997dd63b62a947195f8c">
+        <dex dex="D:\Android Studio Projects\NavDrawer-master\app\build\intermediates\pre-dexed\debug\internal_impl-23.2.0_b5b2a905e8a0420baf7a56ba1d0636f9e4088cf2.jar" />
+    </item>
+    <item
+        jar="C:\Users\Bmsils\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\7.0.1\d5d13ea991eab0252e3710e5df3d6a9d4b21d461\butterknife-7.0.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="D:\Android Studio Projects\NavDrawer-master\app\build\intermediates\pre-dexed\debug\butterknife-7.0.1_61b5841df9f4ea7e78832aa16e41785e5933c3d9.jar" />
+    </item>
+    <item
+        jar="D:\Android Studio Projects\NavDrawer-master\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8c108c22c99e794eff255bb34d2a461200c4cbb0">
+        <dex dex="D:\Android Studio Projects\NavDrawer-master\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.2.0_9e952ec06a9b8bc98323e611598a752460d6156d.jar" />
+    </item>
+    <item
+        jar="D:\Android Studio Projects\NavDrawer-master\app\build\intermediates\exploded-aar\com.android.support\design\23.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="1aa5b025efe97f5006f5be16d6ca67c6c3c0c0d8">
+        <dex dex="D:\Android Studio Projects\NavDrawer-master\app\build\intermediates\pre-dexed\debug\com.android.support-design-23.2.0_be4bc6aa1086603493dfe57513dc4c1c55d4a640.jar" />
+    </item>
+    <item
+        jar="D:\sachin\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.2.0\support-annotations-23.2.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="c5bf571bb10462bd90e5419ade67793f71acbc87">
+        <dex dex="D:\Android Studio Projects\NavDrawer-master\app\build\intermediates\pre-dexed\debug\support-annotations-23.2.0_73c317e49c4da12260f8add878199562c04400df.jar" />
+    </item>
+
+</items>
